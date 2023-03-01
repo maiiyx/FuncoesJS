@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão2</title>
+</head>
+<body>
+
+    <!-- 2) Crie uma aplicação para efetuar cálculos aritméticos de soma e subtração.
+     Considere os seguintes critérios -->
+
+     <!-- O let esta declarando as variáveis do primeiro número, da operação e do
+     segundo número, o "function" está definindo que o código tem que calcular
+     e chamando também as variáveis declarada pelo "let", o "if" está para fazer a operação
+     da soma, e o "else if" para fazer a subtração, o "document.write" irá mostrar o resultado
+     na página. -->
+
+     <script>
+
+        let numero1 = parseInt(prompt("Digite um número"))
+        let operacao = prompt("Digite a operacao")
+        let numero2 = parseInt(prompt("Digite outro número"))
+
+        function calculo(numero1, numero2, operacao){
+
+            if(operacao == "soma"){
+            document.write("O resultado é: "+(numero1 + numero2))
+            } else if(operacao == "subtracao"){
+            document.write("O resultado é: "+(numero1 - numero2))
+            }
+
+        }
+
+        calculo(numero1, numero2, operacao)
+
+     </script>
+    
+</body>
+</html>

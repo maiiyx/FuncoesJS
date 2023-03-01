@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão1</title>
+</head>
+<body>
+
+    <!-- 1) Faça um script contendo uma função que retorne 1 se o número digitado for
+     positivo ou 0 se for negativo. -->
+
+     <!-- A função "function" esta definindo um número que será digitado, a ideia é que, o código
+     identifique se o número digitado é positivo ou negativo, o "if" está para definir se o número é 
+     maior ou igual a 0, sendo então um número positivo, o "else if" está para definir se o número é
+     menor que 0, sendo então negativo, o "num" está chamando o "function", e dentro do "num" tem um
+     "prompt" para que seja possível digitar um número. -->
+
+     <script>
+
+        function num(num1){
+
+            if(num1 >= 0){
+                console.log("O número é positivo!")
+            }else if(num1 < 0){
+                console.log("O número é negativo!")
+            }
+            
+        }
+
+        num(prompt("Digite um número: "))
+
+     </script>
+    
+</body>
+</html>
